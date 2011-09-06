@@ -2,3 +2,5 @@
 environments:
   fetch_tweets_production:
     migrate: false
+  fetch_tweets_unicorn:
+    migrate: false
