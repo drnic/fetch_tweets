@@ -10,5 +10,3 @@ class FetchTweets < Sinatra::Base
     open("http://search.twitter.com/search.json?q=#{params[:user]}")
   end
 end
-
-FetchTweets.run!
